@@ -1,0 +1,14 @@
+# python cache, node stuff, etc not needed but safe standard
+__pycache__/
+*.pyc
+*.egg-info
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# kubeconfig backups / creds just in case
+*.bak
+*.secret
