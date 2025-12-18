@@ -11,5 +11,5 @@ spec:
     spec:
       containers:
         - name: hello
-          image: public.ecr.aws/nginx/nginx:stable
+          image: public.ecr.aws/nginx/nginx:1.27
           ports: [{ containerPort: 80 }]
